@@ -25,7 +25,7 @@ defaults:
       layout: "post"
 
 #### Pagination
-paginate: 20
+paginate: 5
 
 #### Site
 title : Bioinformatics
@@ -53,11 +53,11 @@ menu:
 widgets:
 - category
 - tag
-- tagcloud
+##- tagcloud
 - links
-- douban
-- github-card
-- rss
+##- douban
+##- github-card
+##- rss
 ## provide seven widgets:github-card,category,tag,rss,archive,tagcloud,links,weibo,douban
 
 
@@ -110,8 +110,7 @@ toc:
 
 #### Links
 links:
-  码农圈: https://coderq.com
-  Jark's Blog: http://wuchong.me
+  Baidu: https://www.baidu.com
 
 #### Comment
 duoshuo_shortname:    ## e.g. wuchong      your duoshuo short name.       website: http://duoshuo.com
